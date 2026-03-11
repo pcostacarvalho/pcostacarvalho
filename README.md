@@ -1,4 +1,4 @@
-# Hello, I'm Pamela 👋
+# Hello, I'm Pamela ✌🏽
 
 I'm a computational physicist based in Uppsala, Sweden, with a growing focus on data science and machine learning applied to physical systems.
 
@@ -55,3 +55,5 @@ A Python toolkit for automating high-throughput physics simulations on HPC clust
 ## Get in touch
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pamelaccarvalho/)
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:pamelacosta.res@gmail.com)
