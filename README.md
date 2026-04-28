@@ -25,12 +25,14 @@ I build end-to-end pipelines that turn physics simulations into predictive ML mo
 - Designed for reproducibility and scalability across hundreds of concurrent jobs
 - `Python` · `pandas` · `scipy` · `matplotlib` · `SLURM`
 
-### [TBHubbard ML Analysis](https://github.com/pcostacarvalho/tbhubbard-ml) *(coming soon)*
-> Predicting Hubbard U parameters in MOFs using the dataset I built and published
+### [TBHubbard ML Analysis](https://github.com/pcostacarvalho/tbhubbard-ml)
+> Predicting Hubbard U and V parameters in MOFs using the dataset I built and published
 
-- GLM, Random Forest and Gradient Boosting benchmarked against DFT reference values
+- Benchmarked Linear Regression and Random Forest against DFT reference values on 464,509+ pair-level observations from 242 MOFs
+- Best model for U: **Linear Regression** (R² = 0.970, MAE = 0.181 eV); best model for V: **Random Forest** (R² = 0.782, MAE = 0.026 eV)
+- Full pipeline: EDA → preprocessing (IQR outlier filtering, VIF multicollinearity check, group-aware train/test split) → modelling → evaluation
 - Based on the [TBHubbard dataset](https://doi.org/10.7910/DVN/ZKLRLF) — 785+ downloads since release
-- `scikit-learn` · `pandas` · `matplotlib` · `statsmodels`
+- `scikit-learn` · `statsmodels` · `pandas` · `matplotlib` · `seaborn`
 
 ---
 
@@ -50,6 +52,8 @@ I build end-to-end pipelines that turn physics simulations into predictive ML mo
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![statsmodels](https://img.shields.io/badge/statsmodels-3776AB?style=flat&logo=python&logoColor=white)
+![seaborn](https://img.shields.io/badge/seaborn-4C72B0?style=flat&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
@@ -79,4 +83,3 @@ I build end-to-end pipelines that turn physics simulations into predictive ML mo
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pamela-costa-carvalho)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:pamelacosta.res@gmail.com)
-
