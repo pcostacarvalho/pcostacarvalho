@@ -96,5 +96,5 @@ I build end-to-end pipelines that turn physics simulations into predictive ML mo
 
 ## 📬 Get in touch
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pamela-costa-carvalho)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pamelaccarvalho)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:pamelacosta.res@gmail.com)
